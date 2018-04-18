@@ -1,14 +1,14 @@
 {
-  "name": "cholocate",
+  "name": "workflow",
   "version": "1.0.0",
-  "description": "",
+  "description": "workflow for h5 activity",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "set ENV=dev&& webpack-dev-server --hot --port 3030 --host 0.0.0.0  --content-base dist/",
     "prod": "set ENV=prod&& webpack -wp"
   },
-  "author": "",
+  "author": "zengjieyi",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^8.3.0",
