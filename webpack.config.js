@@ -7,6 +7,7 @@ var CleanWebpackPlugin = require('clean-webpack-plugin'),
 var minify = process.env.ENV == 'prod'; //是否压缩
 
 module.exports = {
+    mode : process.env.ENV == 'prod' ? 'production' : 'development',
     entry : {
         index : './src/js/index.js'
     },
